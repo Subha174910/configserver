@@ -1,3 +1,13 @@
+datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: Subha99@
+    jpa:
+      hibernate.ddl-auto: update
+      generate-ddl: true
+      show-sql: true
+
+
 eureka:
   client:
     service-url:
