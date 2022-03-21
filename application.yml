@@ -1,13 +1,3 @@
-spring:
-  datasource:
-    password: Subha99@
-    username: root
-
-  jpa:
-    hibernate.ddl-auto: update
-    generate-ddl: true
-    show-sql: true
-
 
 eureka:
   client:
