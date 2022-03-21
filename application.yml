@@ -1,11 +1,12 @@
-datasource:
-    driverClassName: com.mysql.jdbc.Driver
-    username: root
+spring:
+  datasource:
     password: Subha99@
-    jpa:
-      hibernate.ddl-auto: update
-      generate-ddl: true
-      show-sql: true
+    username: root
+
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
 
 
 eureka:
